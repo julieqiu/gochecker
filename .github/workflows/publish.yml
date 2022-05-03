@@ -17,7 +17,5 @@ jobs:
           path: gocheck
       - name: List files in the repository
         run: |
-          pushd gocheck
           ls -alh
-          popd
-      - uses: /home/work/gocheck/gocheck/action.yml
+      - uses: ./action.yml
