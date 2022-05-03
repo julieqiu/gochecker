@@ -12,6 +12,5 @@ jobs:
     steps:
       # Checkout the repository first
       # Otherwise the workflow won't be able to find the action
-    - uses: actions/checkout@v2
-    - name: Run custom action
-        uses: ./action.yml
+      - uses: actions/checkout@v2
+      - uses: ./action.yml
