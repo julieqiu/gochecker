@@ -20,4 +20,4 @@ jobs:
           pushd gocheck
           ls -alh
           popd
-      - uses: ./action.yml
+      - uses: ~/work/gocheck/gocheck/action.yml
