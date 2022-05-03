@@ -13,7 +13,9 @@ jobs:
       # Checkout the repository first
       # Otherwise the workflow won't be able to find the action
       - uses: actions/checkout@v2
-      - name: List files in the public repository
+        with:
+          path: gocheck
+      - name: List files in the repository
         run: |
           pushd gocheck
           ls -alh
