@@ -1,6 +1,6 @@
 module github.com/julieqiu/gocheck
 
-go 1.18
+go 1.17
 
 require (
 	github.com/client9/misspell v0.3.4
