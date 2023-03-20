@@ -1,4 +1,4 @@
-name: "Go Container Action Template"
+name: goaudit
 description: "Get started with Go Container actions"
 author: "Jacob Tomlinson"
 inputs:
