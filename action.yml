@@ -1,4 +1,4 @@
-name: goaudit
+name: gochecker
 description: "Get started with Go Container actions"
 author: "Jacob Tomlinson"
 inputs:
