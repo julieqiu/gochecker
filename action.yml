@@ -1,4 +1,4 @@
-name: gocheck
+name: go-check
 description: Runs a series of checks on a Go repository.
 runs:
 inputs:
